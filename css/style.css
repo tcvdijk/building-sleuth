@@ -1,0 +1,54 @@
+body {
+  font-family: monospace;
+  padding: 0;
+  /*width: 800px;*/
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#canvas-container > * {
+  position: absolute;
+  top: 0;
+}
+
+#canvas-container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  align-content: center;
+
+  /*overflow: scroll;*/
+}
+/*.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}*/
+#polygon-edges {
+  stroke: black;
+  stroke-width: 6px;
+}
+
+#polygon-vertices {
+  fill: black;
+  stroke: rgba(0, 0, 0, 0);
+  stroke-width: 30px;
+}
+/*#image{
+  object-fit:contain;
+  height: 100%;
+}*/
+
+.leafletview-leftbar{
+  border-right: 1px solid grey;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.break-word {
+  word-wrap: break-word;
+}

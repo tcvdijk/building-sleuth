@@ -1,0 +1,6 @@
+node_modules
+bin/app.js
+package-lock.json
+yarn.lock
+docs/**
+server-data/polygons/*.json
