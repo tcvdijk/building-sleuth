@@ -1,4 +1,4 @@
-# Polygon Jiggler
+# Building Sleuth
 
 ## Installation and Requirements
 
